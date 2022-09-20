@@ -1,0 +1,64 @@
+! Title: Clean URLs
+! Description: remove useless and tracking parameters in URLs
+! Expires: 7 days
+! Homepage: https://github.com/bcourtel/ublock-lists
+
+! The global rules are taken from https://github.com/jparise/chrome-utm-stripper#recognized-parameters
+
+! Remove Facebook tracking tokens
+*$removeparam=fbclid
+
+! Remove Google tracking tokens
+*$removeparam=gclid
+*$removeparam=utm_campaign
+*$removeparam=utm_cid
+*$removeparam=utm_content
+*$removeparam=utm_medium
+*$removeparam=utm_name
+*$removeparam=utm_reader
+*$removeparam=utm_referrer
+*$removeparam=utm_social
+*$removeparam=utm_social-type
+*$removeparam=utm_source
+*$removeparam=utm_term
+
+! Remove HubSpot tracking tokens
+*$removeparam=_hsenc
+*$removeparam=_hsmi
+
+! Remove Instagram tracking tokens
+*$removeparam=igshid
+
+! Remove Mailchimp tracking tokens
+*$removeparam=mc_cid
+*$removeparam=mc_eid
+
+! Remove Marketo tracking tokens
+*$removeparam=mkt_tok
+
+! Remove Microsoft tracking tokens
+*$removeparam=cvid
+*$removeparam=oicd
+
+! Remove Olytics tracking tokens
+*$removeparam=oly_anon_id
+*$removeparam=oly_enc_id
+*$removeparam=otc
+
+! Remove Wicked Reports tracking tokens
+*$removeparam=wickedid
+
+! Remove Yahoo tracking tokens
+*$removeparam=soc_src
+*$removeparam=soc_trk
+
+! Remove Yandex tracking tokens
+*$removeparam=_openstat
+*$removeparam=yclid
+
+! Remove other tracking tokens
+*$removeparam=rb_clickid
+
+! Remove tracking tokens on Twitter
+twitter.com$removeparam=s
+twitter.com$removeparam=t
