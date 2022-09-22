@@ -62,3 +62,6 @@
 ! Remove tracking tokens on Twitter
 twitter.com$removeparam=s
 twitter.com$removeparam=t
+
+! Remove Amazon search keywords
+amazon.*$removeparam=keywords
