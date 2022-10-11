@@ -63,8 +63,9 @@
 twitter.com$removeparam=s
 twitter.com$removeparam=t
 
-! Remove Amazon search keywords
+! Remove tokens on Amazon
 amazon.*$removeparam=keywords
+amazon.*$removeparam=_encoding
 
 ! Remove tracking tokens on 20minutes
 20minutes.fr$removeparam=xtref
