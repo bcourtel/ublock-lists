@@ -1,5 +1,8 @@
 # uBlock lists
 
+> [!NOTE]
+> Not maintaining this anymore, just use [Legitimate URL Shortener](https://github.com/DandelionSprout/adfilt/discussions/163)
+
 - [uBlock lists](#ublock-lists)
   - [What is it?](#what-is-it)
   - [How to use?](#how-to-use)
